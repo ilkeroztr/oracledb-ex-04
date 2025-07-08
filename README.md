@@ -19,6 +19,7 @@ sudo docker exec -it oraclexe bash
 sqlplus testuser/testpass@//localhost:1521/XEPDB1
 ```
 Screenshot:
+![A](sudo.png)
 
 
 ⸻
@@ -36,6 +37,8 @@ CREATE TABLE BOOK (
 
 Screenshot:
 
+![A](sqltable.png)
+
 
 ⸻
 
@@ -48,6 +51,7 @@ COMMIT;
 SELECT * FROM BOOK;
 ```
 Screenshot:
+![A](testbook.png)
 
 
 ⸻
